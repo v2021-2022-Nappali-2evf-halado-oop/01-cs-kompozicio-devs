@@ -13,6 +13,7 @@ namespace Spectator.Model
             this.FirstName = firstName;
             this.LastName = lastName;
         }
+
         /// <summary>
         /// Properties of Name class
         /// </summary>
