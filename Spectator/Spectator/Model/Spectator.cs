@@ -9,5 +9,12 @@ namespace Spectator.Model
         Name name;
         CreditCard creditCard;
         BonusCard bonusCard;
+
+        public Spectator(Name name, CreditCard creditCard, BonusCard bonusCard)
+        {
+            this.name = name;
+            this.creditCard = creditCard;
+            this.bonusCard = bonusCard;
+        }
     }
 }
