@@ -10,10 +10,13 @@ namespace Spectator.Model
         CreditCard creditCard;
         BonusCard bonusCard;
 
-        public string creditCard { get; set; }
+        public CreditCard CreditCard { get; set; }
 
-        public int bonusCard { get; set; }
 
+
+        public BonusCard BonusCard { get; set; }
+
+        
 
 
         public Spectator(Name name, CreditCard creditCard, BonusCard bonusCard)
