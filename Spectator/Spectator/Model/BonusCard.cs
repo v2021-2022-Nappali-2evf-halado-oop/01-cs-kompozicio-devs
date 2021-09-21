@@ -6,8 +6,17 @@ using System.Threading;
 using Spectator.Model;
 namespace Spectator.Model
 {
+
+    enum Status
+    {
+        InActive,
+        Active,
+        Expired
+    }
     class BonusCard
     {
+       
+
         private float avaibleBalance;
         private string cardNumber;
         private Status status;
