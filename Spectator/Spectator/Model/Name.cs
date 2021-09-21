@@ -17,8 +17,8 @@ namespace Spectator.Model
         /// <summary>
         /// Properties of Name class
         /// </summary>
-        public string FirstName { get => firstName; set => firstName = value; }
-        public string LastName { get => lastName; set => lastName = value; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public string FullName
         {
             get
