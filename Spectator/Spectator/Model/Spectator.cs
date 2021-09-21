@@ -10,11 +10,21 @@ namespace Spectator.Model
         CreditCard creditCard;
         BonusCard bonusCard;
 
+        public string creditCard { get; set; }
+
+        public int bonusCard { get; set; }
+
+
+
         public Spectator(Name name, CreditCard creditCard, BonusCard bonusCard)
         {
             this.name = name;
             this.creditCard = creditCard;
             this.bonusCard = bonusCard;
+
+
         }
+
+
     }
 }
